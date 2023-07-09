@@ -1,3 +1,9 @@
 .navbar {
     background-color: #FAFF15;
+    
+}
+
+.navbar img.logo{
+    height: 10px;
+
 }

@@ -32,78 +32,78 @@
 
 
     <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
         }
+    }
 
-        .b-example-divider {
-            width: 100%;
-            height: 3rem;
-            background-color: rgba(0, 0, 0, .1);
-            border: solid rgba(0, 0, 0, .15);
-            border-width: 1px 0;
-            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-        }
+    .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
 
-        .b-example-vr {
-            flex-shrink: 0;
-            width: 1.5rem;
-            height: 100vh;
-        }
+    .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+    }
 
-        .bi {
-            vertical-align: -.125em;
-            fill: currentColor;
-        }
+    .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+    }
 
-        .nav-scroller {
-            position: relative;
-            z-index: 2;
-            height: 2.75rem;
-            overflow-y: hidden;
-        }
+    .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+    }
 
-        .nav-scroller .nav {
-            display: flex;
-            flex-wrap: nowrap;
-            padding-bottom: 1rem;
-            margin-top: -1px;
-            overflow-x: auto;
-            text-align: center;
-            white-space: nowrap;
-            -webkit-overflow-scrolling: touch;
-        }
+    .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
 
-        .btn-bd-primary {
-            --bd-violet-bg: #712cf9;
-            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
-            --bs-btn-font-weight: 600;
-            --bs-btn-color: var(--bs-white);
-            --bs-btn-bg: var(--bd-violet-bg);
-            --bs-btn-border-color: var(--bd-violet-bg);
-            --bs-btn-hover-color: var(--bs-white);
-            --bs-btn-hover-bg: #6528e0;
-            --bs-btn-hover-border-color: #6528e0;
-            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-            --bs-btn-active-color: var(--bs-btn-hover-color);
-            --bs-btn-active-bg: #5a23c8;
-            --bs-btn-active-border-color: #5a23c8;
-        }
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+    }
 
-        .bd-mode-toggle {
-            z-index: 1500;
-        }
+    .bd-mode-toggle {
+        z-index: 1500;
+    }
     </style>
 
 
@@ -132,7 +132,7 @@
         </symbol>
     </svg>
 
-
+   
 
 
     <!-- membuat halaman home -->
@@ -159,41 +159,41 @@
             </symbol>
         </svg>
 
-
+        
 
         <!-- membuat navbar -->
         <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
-            <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
+          <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
             <div class="container-fluid">
-                <a>SAMBAL GORENG KENTANG EY</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#">SAMBAL GORENG KENTANG EY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2"
-                    aria-labelledby="offcanvasNavbar2Label">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">SAMBAL GORENG KENTANG EY</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pesanan">PESANAN</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="akun">AKUN</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbar2Label">SAMBAL GORENG KENTANG EY</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="pesanan">PESANAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabel">TABEL USER</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="akun">AKUN</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </nav>
-
+          </nav>
+    
 
         <main>
 
@@ -203,41 +203,51 @@
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <center>
-                            <img src="{{ asset('img/banner.png') }}" class="img-fluid mx-auto" width="100%"
-                                height="50px" alt="">
+                            <img src="{{asset('img/banner.png')}}" class="img-fluid mx-auto" width="100%" height="auto"
+                                alt="">
                         </center>
                         <div class="container">
                             <div class="carousel-caption text-start">
-
+                                
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <center>
-                            <img src="{{ asset('img/gambar3.jpg') }}" class="img-fluid mx-auto" width="100%"
-                                height="auto" alt="">
+                            <img src="{{asset('img/gambar3.jpg')}}" class="img-fluid mx-auto" width="100%" height="auto"
+                                alt="">
                         </center>
                         <div class="container">
                             <div class="carousel-caption">
                                 <h1></h1>
                                 <p></p>
-
+                                
                             </div>
                         </div>
                     </div>
-                    
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-                    data-bs-slide="prev">
+                    <div class="carousel-item">
+                        <center>
+                            <img src="{{asset('img/gambar2.jpg')}}" class="img-fluid mx-auto" width="100%" height="auto"
+                                alt="">
+                        </center>
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -245,82 +255,53 @@
 
 
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-            </script>
+                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-                integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
-            </script>
+                integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+                crossorigin="anonymous"></script>
 
+            <!-- Marketing messaging and featurettes
+================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
 
+            <section class="about">
+              <div class="container">
+                <p>SAMBAL GORENG KENTANG EY mulai di produksi pada bulan maret 2022.
+                  Bahan yang digunakan dalam pembuatan SAMBAL GORENG KENTANG EY yaitu: kentang,teri,kacang,bawang putih dan cabai. SAMBAL GORENG KENTANG EY dapat bertahan selama 1 bulan dalam suhu ruang.</p>
+              </div>
+            </section>
 
+                <!-- membuat footer  -->
 
-            </form>
-            </div>
-        </main>
-
-        <div class="description-box">
-            <h2>Deskripsi produk</h2>
-            <p> SAMBAL GORENG KENTANG EY mulai di produksi pada bulan maret 2022.
-                Bahan yang digunakan dalam pembuatan SAMBAL GORENG KENTANG EY yaitu: kentang,teri,kacang,bawang
-                putih dan cabai. SAMBAL GORENG KENTANG EY dapat bertahan selama 1 bulan dalam suhu ruang.</p>
-                <style>
-                    .description-box {
-                        background-color: #D9D9D9;
-                        padding: 0px;
-                        border: 10px solid #D9D9D9;
-                        border-radius: 0px;
-                    }
                 
-                    .description-box h2 {
-                        color: #333;
-                    }
-                
-                    .description-box p {
-                        color: #666;
-                    }
-                </style>
-                
-                
-        </div>
-        
-
-        <footer>
-            <p><strong>Copyright SAMBAL GORENG KENTANG EY 2023</strong>.</p>
-
-<style>
-            footer {
-            background-color: #FAFF15;
-            padding: 10px;
-            text-align: center;
-        }
-        </style>
-          </footer>
-         
-           
-
-        <script>
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (() => {
-                'use strict'
-
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                const forms = document.querySelectorAll('.needs-validation')
-
-                // Loop over them and prevent submission
-                Array.from(forms).forEach(form => {
-                    form.addEventListener('submit', event => {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
-
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-            })()
-        </script>
+              </form>
+              </div>
+          </main>
+          
+          <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (() => {
+                  'use strict'
+      
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  const forms = document.querySelectorAll('.needs-validation')
+      
+                  // Loop over them and prevent submission
+                  Array.from(forms).forEach(form => {
+                      form.addEventListener('submit', event => {
+                          if (!form.checkValidity()) {
+                              event.preventDefault()
+                              event.stopPropagation()
+                          }
+      
+                          form.classList.add('was-validated')
+                      }, false)
+                  })
+              })()
+          </script>
     </body>
-   
-    
+
+</html>
 
 </html>
